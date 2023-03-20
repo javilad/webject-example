@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.8" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="3.1.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CaWorkshop.Application\CaWorkshop.Application.csproj" />
+    <ProjectReference Include="..\CaWorkshop.Infrastructure\CaWorkshop.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="TodoLists\" />
+    <None Remove="TodoLists\Queries\" />
+    <None Remove="TodoLists\Queries\GetTodoLists\" />
+    <None Remove="TodoLists\Commands\" />
+    <None Remove="TodoLists\Commands\CreateTodoList\" />
+    <None Remove="Common\" />
+    <None Remove="Common\Mappings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TodoLists\" />
+    <Folder Include="TodoLists\Queries\" />
+    <Folder Include="TodoLists\Queries\GetTodoLists\" />
+    <Folder Include="TodoLists\Commands\" />
+    <Folder Include="TodoLists\Commands\CreateTodoList\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Mappings\" />
+  </ItemGroup>
+</Project>

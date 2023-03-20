@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.WebUI", "CaWorkshop.WebUI\CaWorkshop.WebUI.csproj", "{2C0B1F0F-0616-4AFB-B2FF-92741AE72E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Domain", "CaWorkshop.Domain\CaWorkshop.Domain.csproj", "{3C5D83BE-0D27-485E-BC5E-0D0B891A5461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Application", "CaWorkshop.Application\CaWorkshop.Application.csproj", "{E1E481F3-E67C-453B-B753-05050ABAFE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Infrastructure", "CaWorkshop.Infrastructure\CaWorkshop.Infrastructure.csproj", "{57925B40-1014-4A19-8F31-73CC2C8B2EFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AFFCD30-8CDE-4074-9DF7-434330719720}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaWorkshop.Application.UnitTests", "CaWorkshop.Application.UnitTests\CaWorkshop.Application.UnitTests.csproj", "{4CCDBEBA-A4EA-4AE1-9E31-A173C26413D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C0B1F0F-0616-4AFB-B2FF-92741AE72E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B1F0F-0616-4AFB-B2FF-92741AE72E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B1F0F-0616-4AFB-B2FF-92741AE72E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B1F0F-0616-4AFB-B2FF-92741AE72E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5D83BE-0D27-485E-BC5E-0D0B891A5461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5D83BE-0D27-485E-BC5E-0D0B891A5461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5D83BE-0D27-485E-BC5E-0D0B891A5461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5D83BE-0D27-485E-BC5E-0D0B891A5461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E481F3-E67C-453B-B753-05050ABAFE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E481F3-E67C-453B-B753-05050ABAFE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E481F3-E67C-453B-B753-05050ABAFE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E481F3-E67C-453B-B753-05050ABAFE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57925B40-1014-4A19-8F31-73CC2C8B2EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57925B40-1014-4A19-8F31-73CC2C8B2EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57925B40-1014-4A19-8F31-73CC2C8B2EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57925B40-1014-4A19-8F31-73CC2C8B2EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCDBEBA-A4EA-4AE1-9E31-A173C26413D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCDBEBA-A4EA-4AE1-9E31-A173C26413D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCDBEBA-A4EA-4AE1-9E31-A173C26413D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCDBEBA-A4EA-4AE1-9E31-A173C26413D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
